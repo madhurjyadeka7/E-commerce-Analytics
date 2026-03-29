@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-df = pd.read_csv("Nassau Candy Distributor.csv")
+df = pd.read_csv("ecommerce/Nassau Candy Distributor.csv")
 
 # Create metrics
 df['Gross Margin %'] = (df['Gross Profit'] / df['Sales']) * 100
